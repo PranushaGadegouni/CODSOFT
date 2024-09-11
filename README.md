@@ -27,4 +27,49 @@ Requirements:
 * Tkinter (usually included with Python)
 
 
+Contact Book Application:-
+
+This is a Contact Book application built using Python's Tkinter library. The app provides a graphical interface for managing contacts, allowing users to add, view, edit, delete, and search for contact information.
+
+Features:
+* Add Contact: Input and save a new contact with fields for Name, Phone, Email, and Address.
+* Show Contacts: Display all saved contacts in a scrollable list.
+* Edit Contact: Modify the details of an existing contact.
+* Delete Contact: Remove a selected contact from the list.
+* Search Contacts: Find contacts by name or phone number.
+
+Usage:
+1) Running the Application:
+* Ensure you have Python installed on your system.
+* Run the script using Python. The application window will open with the contact book interface.
+2) Adding a Contact:
+* Fill in the Name, Phone, Email, and Address fields.
+* Click the "Add Contact" button to save the contact.
+3) Viewing Contacts:
+* Click the "Show Contacts" button to view all saved contacts in the listbox.
+4) Editing a Contact:
+* Select a contact from the listbox.
+* Click the "Edit Contact" button to populate the entry fields with the selected contact's information. Modify the details and click "Add Contact" to save changes.
+5) Deleting a Contact:
+* Select a contact from the listbox.
+* Click the "Delete Contact" button to remove the contact from the list.
+6) Searching for Contacts:
+* Click the "Search Contacts" button and enter the name or phone number to search for. The app will display matching contacts.
+7) Code Overview:
+* create_widgets(): Sets up the GUI layout, including labels, entry fields, listbox, and buttons.
+* add_contact(): Adds a new contact to the list and displays a confirmation message.
+* show_contacts(): Displays all saved contacts in the listbox.
+* edit_contact(): Allows modification of selected contact details.
+* delete_contact(): Removes a selected contact from the list.
+* search_contacts(): Searches for contacts based on a user-provided search term.
+* clear_entry_fields(): Clears all entry fields.
+* update_contacts_listbox(): Refreshes the listbox with the current contacts.
+
+Requirements:
+* Python 3.x
+* Tkinter (usually included with Python)
+
+
+
+
 
