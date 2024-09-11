@@ -95,6 +95,9 @@ Code Overview:
   Prints the generated password.
 
 Requirements:
-Python 3.x
+* Python 3.x
+
+
+
 
 
