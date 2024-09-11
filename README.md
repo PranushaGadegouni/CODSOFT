@@ -132,4 +132,39 @@ Code Overview:
 Requirements:
 * Python 3.x
 
+To-Do List Application:- 
 
+This is a simple To-Do List application built using Python's Tkinter library. The app allows users to manage their tasks with functionalities to add, delete, and mark tasks as completed.
+
+Features:
+* Add Task: Open a pop-up window to enter a new task and add it to the list.
+* Delete Task: Remove the selected task from the list.
+* Mark as Completed: Add a checkmark to the selected task to indicate completion.
+* Keyboard Shortcuts: Use keyboard shortcuts for task management:
+   -a: Open the "Add task" window.
+   -d: Delete the selected task.
+   -m: Mark the selected task as completed.
+
+Usage:
+1) Running the Application:
+* Ensure you have Python installed on your system.
+* Run the script using Python. The main window will open with the To-Do List interface.
+2)Managing Tasks:
+* Add Task: Click the "Add task" button to open a pop-up window where you can enter and add a new task.
+* Delete Task: Select a task from the list and click the "Delete selected task" button to remove it.
+* Mark as Completed: Select a task from the list and click the "Mark as completed" button to add a checkmark to the task.
+* Keyboard Shortcuts: Use the keys a, d, and m to quickly add, delete, or mark tasks as completed.
+
+Code Overview:
+* add_task(): Opens a pop-up window to enter and add a new task.
+* delete_task(): Deletes the currently selected task from the list.
+* mark_completed(): Adds a checkmark to the selected task to indicate it is completed.
+* handle_key(event): Handles keyboard shortcuts for task management.
+* Main Window:
+   -Contains a Listbox for displaying tasks with a Scrollbar.
+   -Buttons for adding, deleting, and marking tasks as completed.
+   -Binds keyboard shortcuts to corresponding functions.
+
+Requirements:
+* Python 3.x
+* Tkinter (usually included with Python)
