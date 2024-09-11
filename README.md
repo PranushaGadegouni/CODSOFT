@@ -98,6 +98,38 @@ Requirements:
 * Python 3.x
 
 
+Rock, Paper, Scissors Game:-
 
+This is a simple command-line Rock, Paper, Scissors game implemented in Python. The game allows the user to play against the computer, providing a fun and interactive way to enjoy the classic game.
+
+Features:
+* User Input: Prompts the user to choose Rock, Paper, or Scissors.
+* Computer Choice: The computer randomly selects its choice from Rock, Paper, or Scissors.
+* Determine Winner: Determines the outcome of the game based on the rules of Rock, Paper, Scissors.
+* Play Again Option: Asks the user if they want to play another round.
+
+Usage:
+1) Running the Game:
+* Ensure you have Python installed on your system.
+* Run the script using Python.
+2) Playing the Game:
+* Follow the prompts to choose Rock, Paper, or Scissors.
+* The computer will randomly select its choice.
+* The game will display the result of the round (win, lose, or tie).
+* You will be asked if you want to play another round. Type "yes" to continue or "no" to exit.
+
+Code Overview:
+* get_user_choice():
+   -Prompts the user to input their choice.
+   -Validates the input and ensures it is one of the accepted options.
+* get_computer_choice():
+   -Randomly selects a choice for the computer.
+   -determine_winner(user_choice, computer_choice):
+   -Determines the winner based on user and computer choices using predefined win conditions.
+* main():
+   -Orchestrates the game flow, including user interaction, computer choice, result display, and replay option.
+
+Requirements:
+* Python 3.x
 
 
