@@ -70,6 +70,31 @@ Requirements:
 * Tkinter (usually included with Python)
 
 
+Random Password Generator:-
 
+This is a simple Python script that generates a random password based on user-specified length. It uses a combination of letters, digits, and special characters to create a secure and unpredictable password.
+
+Features:
+* Customizable Length: Allows the user to specify the desired length of the generated password.
+* Diverse Character Set: Includes uppercase and lowercase letters, digits, and special characters for strong password creation.
+
+Usage:
+1) Running the Script:
+* Ensure you have Python installed on your system.
+* Run the script using Python.
+2) Generating a Password:
+* When prompted, enter the desired length for the password.
+* The script will generate and display a random password with the specified length.
+
+Code Overview:
+* Character Set: Uses a list of characters consisting of uppercase and lowercase letters, digits, and special characters.
+* generate_random_password():
+  -Prompts the user for the password length.
+  -Shuffles the characters and selects random ones to form the password.
+  -Shuffles the resulting password for added randomness.
+  Prints the generated password.
+
+Requirements:
+Python 3.x
 
 
