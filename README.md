@@ -1,4 +1,7 @@
-Simple Calculator with Tkinter:-
+Python Projects Overview:-
+* This repository contains several Python projects, each demonstrating different functionalities and use cases. Below is a brief description of each project:
+
+-->Simple Calculator with Tkinter:-
 
 This is a basic calculator application built using Python's Tkinter library. It provides a simple GUI for performing arithmetic operations.
 
@@ -27,7 +30,7 @@ Requirements:
 * Tkinter (usually included with Python)
 
 
-Contact Book Application:-
+-->Contact Book Application:-
 
 This is a Contact Book application built using Python's Tkinter library. The app provides a graphical interface for managing contacts, allowing users to add, view, edit, delete, and search for contact information.
 
@@ -70,7 +73,7 @@ Requirements:
 * Tkinter (usually included with Python)
 
 
-Random Password Generator:-
+-->Random Password Generator:-
 
 This is a simple Python script that generates a random password based on user-specified length. It uses a combination of letters, digits, and special characters to create a secure and unpredictable password.
 
@@ -98,7 +101,7 @@ Requirements:
 * Python 3.x
 
 
-Rock, Paper, Scissors Game:-
+-->Rock, Paper, Scissors Game:-
 
 This is a simple command-line Rock, Paper, Scissors game implemented in Python. The game allows the user to play against the computer, providing a fun and interactive way to enjoy the classic game.
 
@@ -132,7 +135,7 @@ Code Overview:
 Requirements:
 * Python 3.x
 
-To-Do List Application:- 
+-->To-Do List Application:- 
 
 This is a simple To-Do List application built using Python's Tkinter library. The app allows users to manage their tasks with functionalities to add, delete, and mark tasks as completed.
 
